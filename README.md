@@ -4,7 +4,7 @@ Editor de vídeo para Windows 10/11 (64 bits), feito do zero: timeline multipist
 
 ## Baixar e instalar
 
-1. Abra a aba **Releases** deste repositório e baixe **Cortex-Setup-0.3.0.exe**.
+1. Abra a pasta **instalador**, clique em **Cortex-Setup-0.3.0.exe** e depois no botão **Download** (ícone de seta, no canto direito).
 2. Dê dois cliques no arquivo. Não precisa de permissão de administrador.
 3. Se o Windows mostrar "Editor desconhecido" (SmartScreen), clique em **Mais informações → Executar assim mesmo**. O instalador não tem assinatura digital.
 
