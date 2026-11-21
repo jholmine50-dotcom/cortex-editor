@@ -5,7 +5,7 @@
     "Legendas automáticas com Whisper large-v3-turbo: muito mais precisas e rápidas (usa placa NVIDIA quando tiver)",
     "Primeira legenda baixa o motor de voz (~570 MB) uma vez só"
   ],
-  "installer": "https://media.githubusercontent.com/media/jholmine50-dotcom/cortex-editor/main/instalador/Cortex-Setup-0.4.1.exe",
+  "installer": "https://media.githubusercontent.com/media/jholmine50-dotcom/cortex-editor/05a2a925315b44d9ab3a1a77802c68f2fad29b4e/instalador/Cortex-Setup-0.4.1.exe",
   "sha256": "ca5628e5c2a249a8a3e3abdad3ea2093c3853c091b55a89cff127e08e3284dfe",
   "size": 212365425
 }
