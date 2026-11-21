@@ -1,11 +1,11 @@
 {
-  "version": "0.4.1",
+  "version": "0.4.2",
   "notes": [
-    "Exportação muito mais rápida (decodificação contínua, cor na placa de vídeo e encoder da GPU por padrão)",
-    "Legendas automáticas com Whisper large-v3-turbo: muito mais precisas e rápidas (usa placa NVIDIA quando tiver)",
-    "Primeira legenda baixa o motor de voz (~570 MB) uma vez só"
+    "Legendas no modo nuvem (Groq): 30 min de áudio em segundos, com o Whisper large-v3",
+    "Exportação mostra a placa de vídeo, a velocidade e avisa se a GPU não foi liberada",
+    "O Cortex agora força o uso da placa de vídeo (inclusive a dedicada em notebooks)"
   ],
-  "installer": "https://media.githubusercontent.com/media/jholmine50-dotcom/cortex-editor/05a2a925315b44d9ab3a1a77802c68f2fad29b4e/instalador/Cortex-Setup-0.4.1.exe",
-  "sha256": "ca5628e5c2a249a8a3e3abdad3ea2093c3853c091b55a89cff127e08e3284dfe",
-  "size": 212365425
+  "installer": "https://media.githubusercontent.com/media/jholmine50-dotcom/cortex-editor/0804ed60109e703f64bbaa03ebfde595c2cbfb38/instalador/Cortex-Setup-0.4.2.exe",
+  "sha256": "824e1d40d61d50a556eb44273d0fb92cd0e34150945135bf5ed2dff7e4c14597",
+  "size": 212373740
 }
