@@ -4,13 +4,18 @@ Editor de vídeo para Windows 10/11 (64 bits), feito do zero: timeline multipist
 
 ## Baixar e instalar
 
-1. Abra a pasta **instalador**, clique em **Cortex-Setup-0.4.0.exe** e depois no botão **Download** (ícone de seta, no canto direito).
+1. Abra a pasta **instalador**, clique em **Cortex-Setup-0.4.1.exe** e depois no botão **Download** (ícone de seta, no canto direito).
 2. Dê dois cliques no arquivo. Não precisa de permissão de administrador.
 3. Se o Windows mostrar "Editor desconhecido" (SmartScreen), clique em **Mais informações → Executar assim mesmo**. O instalador não tem assinatura digital.
 
 Quem já tem a 0.4.0 ou mais nova não precisa baixar de novo: o Cortex se atualiza sozinho.
 
 SHA-256 do instalador: veja `latest.json`.
+
+## Novidades da 0.4.1
+
+- Exportação muito mais rápida: o vídeo é decodificado em sequência (sem "pular" quadro a quadro), a conversão de cor é feita na placa de vídeo e o encoder da placa (NVIDIA/Intel/AMD) já vem escolhido quando existe.
+- Legendas automáticas com o Whisper large-v3-turbo (whisper.cpp): bem mais precisas e rápidas, usando a placa NVIDIA quando tiver.
 
 ## Novidades da 0.4.0
 
@@ -26,5 +31,5 @@ SHA-256 do instalador: veja `latest.json`.
 - Electron / Chromium (MIT e licenças do Chromium).
 - FFmpeg, build GPL de [BtbN/FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) (GNU GPL v3), usado para ler e exportar mídia.
 - Fontes livres (SIL Open Font License / Apache), com licenças incluídas no app.
-- Reconhecimento de voz: Whisper (MIT) via transformers.js / ONNX Runtime (Apache 2.0 / MIT), modelo baixado do Hugging Face no primeiro uso.
+- Reconhecimento de voz: whisper.cpp (MIT) com o modelo Whisper large-v3-turbo (MIT), baixados no primeiro uso.
 - yt-dlp (Unlicense), baixado do GitHub oficial no primeiro uso do baixador.
