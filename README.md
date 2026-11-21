@@ -4,13 +4,19 @@ Editor de vídeo para Windows 10/11 (64 bits), feito do zero: timeline multipist
 
 ## Baixar e instalar
 
-1. Abra a pasta **instalador**, clique em **Cortex-Setup-0.4.1.exe** e depois no botão **Download** (ícone de seta, no canto direito).
+1. Abra a pasta **instalador**, clique em **Cortex-Setup-0.4.2.exe** e depois no botão **Download** (ícone de seta, no canto direito).
 2. Dê dois cliques no arquivo. Não precisa de permissão de administrador.
 3. Se o Windows mostrar "Editor desconhecido" (SmartScreen), clique em **Mais informações → Executar assim mesmo**. O instalador não tem assinatura digital.
 
 Quem já tem a 0.4.0 ou mais nova não precisa baixar de novo: o Cortex se atualiza sozinho.
 
 SHA-256 do instalador: veja `latest.json`.
+
+## Novidades da 0.4.2
+
+- Legendas no modo nuvem (Groq, Whisper large-v3): 30 minutos de áudio em segundos. Precisa de uma chave grátis em console.groq.com/keys (só uma vez).
+- Exportação mostra a placa de vídeo usada, os quadros por segundo e avisa se o Windows não liberou a GPU.
+- O app agora força o uso da placa de vídeo (inclusive a dedicada em notebooks).
 
 ## Novidades da 0.4.1
 
