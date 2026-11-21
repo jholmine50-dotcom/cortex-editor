@@ -1,0 +1,17 @@
+{
+  "version": "0.4.0",
+  "notes": [
+    "Atualização automática: o Cortex agora se atualiza sozinho",
+    "Legendas automáticas estilo CapCut (14 estilos, palavra em destaque)",
+    "Baixar vídeos do YouTube, TikTok e Instagram",
+    "50+ efeitos, filtros, transições, sobreposições, títulos e stickers",
+    "56 fontes no estilo das redes sociais",
+    "Correção: vídeo em reverso não fica mais com tela preta"
+  ],
+  "installers": [
+    "https://github.com/jholmine50-dotcom/cortex-editor/releases/download/v0.4.0/Cortex-Setup-0.4.0.exe"
+  ],
+  "installer": "https://media.githubusercontent.com/media/jholmine50-dotcom/cortex-editor/main/instalador/Cortex-Setup-0.4.0.exe",
+  "sha256": "4f015220db88ea01d427ca3bc79f3caa21156e722126926a104c57e49d7507ca",
+  "size": 216270035
+}
