@@ -1,17 +1,11 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.1",
   "notes": [
-    "Atualização automática: o Cortex agora se atualiza sozinho",
-    "Legendas automáticas estilo CapCut (14 estilos, palavra em destaque)",
-    "Baixar vídeos do YouTube, TikTok e Instagram",
-    "50+ efeitos, filtros, transições, sobreposições, títulos e stickers",
-    "56 fontes no estilo das redes sociais",
-    "Correção: vídeo em reverso não fica mais com tela preta"
+    "Exportação muito mais rápida (decodificação contínua, cor na placa de vídeo e encoder da GPU por padrão)",
+    "Legendas automáticas com Whisper large-v3-turbo: muito mais precisas e rápidas (usa placa NVIDIA quando tiver)",
+    "Primeira legenda baixa o motor de voz (~570 MB) uma vez só"
   ],
-  "installers": [
-    "https://github.com/jholmine50-dotcom/cortex-editor/releases/download/v0.4.0/Cortex-Setup-0.4.0.exe"
-  ],
-  "installer": "https://media.githubusercontent.com/media/jholmine50-dotcom/cortex-editor/main/instalador/Cortex-Setup-0.4.0.exe",
-  "sha256": "4f015220db88ea01d427ca3bc79f3caa21156e722126926a104c57e49d7507ca",
-  "size": 216270035
+  "installer": "https://media.githubusercontent.com/media/jholmine50-dotcom/cortex-editor/main/instalador/Cortex-Setup-0.4.1.exe",
+  "sha256": "ca5628e5c2a249a8a3e3abdad3ea2093c3853c091b55a89cff127e08e3284dfe",
+  "size": 212365425
 }
