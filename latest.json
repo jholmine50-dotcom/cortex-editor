@@ -1,11 +1,10 @@
 {
-  "version": "0.4.2",
+  "version": "0.4.3",
   "notes": [
-    "Legendas no modo nuvem (Groq): 30 min de áudio em segundos, com o Whisper large-v3",
-    "Exportação mostra a placa de vídeo, a velocidade e avisa se a GPU não foi liberada",
-    "O Cortex agora força o uso da placa de vídeo (inclusive a dedicada em notebooks)"
+    "Modo rápido de exportação: vídeos só com cortes são exportados direto pelo FFmpeg com o encoder da placa, bem mais rápido que a duração do vídeo",
+    "Legendas na nuvem: a chave do Groq é salva sozinha ao colar e o botão Gerar não trava mais"
   ],
-  "installer": "https://media.githubusercontent.com/media/jholmine50-dotcom/cortex-editor/0804ed60109e703f64bbaa03ebfde595c2cbfb38/instalador/Cortex-Setup-0.4.2.exe",
-  "sha256": "824e1d40d61d50a556eb44273d0fb92cd0e34150945135bf5ed2dff7e4c14597",
-  "size": 212373740
+  "installer": "https://media.githubusercontent.com/media/jholmine50-dotcom/cortex-editor/6497c9021019e9d642200a19028dde0881df0013/instalador/Cortex-Setup-0.4.3.exe",
+  "sha256": "c88ceac5b42e98c5bb2021ad7b0cd4f5673e95998de7bd0ea0a6f0d41dd24dd4",
+  "size": 212416294
 }
