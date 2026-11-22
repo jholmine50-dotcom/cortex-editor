@@ -4,13 +4,18 @@ Editor de vídeo para Windows 10/11 (64 bits), feito do zero: timeline multipist
 
 ## Baixar e instalar
 
-1. Abra a pasta **instalador**, clique em **Cortex-Setup-0.4.2.exe** e depois no botão **Download** (ícone de seta, no canto direito).
+1. Abra a pasta **instalador**, clique em **Cortex-Setup-0.4.3.exe** e depois no botão **Download** (ícone de seta, no canto direito).
 2. Dê dois cliques no arquivo. Não precisa de permissão de administrador.
 3. Se o Windows mostrar "Editor desconhecido" (SmartScreen), clique em **Mais informações → Executar assim mesmo**. O instalador não tem assinatura digital.
 
 Quem já tem a 0.4.0 ou mais nova não precisa baixar de novo: o Cortex se atualiza sozinho.
 
 SHA-256 do instalador: veja `latest.json`.
+
+## Novidades da 0.4.3
+
+- Modo rápido de exportação: projetos só com cortes são cortados e emendados direto pelo FFmpeg com o encoder da placa (Quick Sync, NVENC, AMF), sem desenhar quadro a quadro. Fica bem mais rápido que a duração do vídeo.
+- Legendas na nuvem: a chave do Groq é salva sozinha ao colar, e o botão Gerar não trava mais.
 
 ## Novidades da 0.4.2
 
